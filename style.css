@@ -1,0 +1,134 @@
+body {
+  background-color: rgb(175, 160, 160);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.container {
+  width: 1440px;
+  margin: 10% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  position: absolute;
+  left: 50px;
+  top: 90px;
+  font-size: 36px;
+  font-family: monospace;
+  color: wheat;
+  display: flex;
+}
+
+.form {
+  /* text-align: center; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: darkblue;
+  box-shadow: 8px -5px 5px 1px;
+}
+.span {
+  position: absolute;
+  top: 290px;
+  left: 55px;
+  width: 350px;
+  font-size: 10px;
+  color: red;
+}
+.success {
+  position: absolute;
+  top: 290px;
+  left: 55px;
+  width: 350px;
+  font-size: 10px;
+  color: rgb(36, 203, 36);
+}
+.input {
+  width: 300px;
+  height: 48px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-size: 12px;
+  text-shadow: 0.5px -2px 2px;
+  color: rgb(59, 40, 16);
+  padding-left: 10px;
+}
+input:hover {
+  outline: none;
+  border: 2px solid rgb(31, 21, 40);
+  box-shadow: 12 0 0 0.9;
+}
+input:focus {
+  border: 2px solid cyan;
+  box-shadow: 0 0 0 100;
+}
+.btn {
+  width: 300px;
+  margin-top: 50px;
+  height: 30px;
+  border-radius: 8px;
+  color: rgb(30, 247, 62);
+  background-color: rgb(57, 87, 185);
+  border: none;
+}
+.btn:hover {
+  background-color: blueviolet;
+  transition: all 0.5s linear;
+  color: antiquewhite;
+}
+.btn:active {
+  background-color: rgb(80, 4, 151);
+
+  color: rgb(153, 92, 13);
+}
+.buttons {
+  position: absolute;
+  bottom: 70px;
+}
+.social__btn {
+  width: 92px;
+  border-radius: 8px;
+  height: 34px;
+  font-size: 15px;
+}
+.social__btn:nth-child(1) {
+  background-color: rgb(243, 13, 13);
+  color: white;
+  border: none;
+  outline: none;
+}
+.social__btn:nth-child(1):hover {
+  background-color: rgb(241, 64, 64);
+}
+.social__btn:nth-child(2) {
+  background-color: #3f0df3;
+  color: white;
+  border: none;
+  outline: none;
+}
+.social__btn:nth-child(2):hover {
+  background-color: hsl(253, 81%, 55%);
+}
+.social__btn:nth-child(3) {
+  background-color: hsl(198, 91%, 50%);
+  color: white;
+  border: none;
+  outline: none;
+}
+.social__btn:nth-child(3):hover {
+  background-color: hsl(198, 89%, 61%);
+}
